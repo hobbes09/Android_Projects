@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#879BEB"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/commTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        android:text="Comm Main Activity"
+        android:textSize="20dp" />
+
+    <fragment
+        android:id="@+id/commfragment1"
+        android:name="com.example.learningandroid.StartFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.66" />
+
+</LinearLayout>
