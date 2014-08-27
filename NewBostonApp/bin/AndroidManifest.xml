@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newbostonapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.newbostonapp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.newbostonapp.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.newbostonapp.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.Camera"
+            android:label="Camera App" android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.Data"
+            android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.OpenedClass"
+            android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.newbostonapp.FragmentDemo"
+            android:label="Fragment Demo" android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
