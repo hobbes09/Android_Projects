@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <fragment
+            android:id="@+id/f1"
+            android:name="com.example.commftof.FirstFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <fragment
+            android:id="@+id/f2"
+            android:name="com.example.commftof.SecondFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>
