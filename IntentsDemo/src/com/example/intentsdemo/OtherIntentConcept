@@ -1,0 +1,14 @@
+
+
+Intent: It's a message passing mechanism between components of android except ContentProvider.
+		You can use intent to start any component.
+
+Sticky Intent : It sticks with android for future broad cast listeners. 
+				Ex-if BATTERY_LOW event occurs then that intent will be stick with android so that 
+				if in future battery low occurs while app is running that intent will be fired.
+
+Pending Intent: If you want someone to perform any Intent operation at future point of time on behalf of you ,
+				then we will use pending Intent. Ex- setting Alarm for some time .
+				Example: http://www.sanfoundry.com/java-android-program-pending-intent/
+
+				
